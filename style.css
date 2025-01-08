@@ -26,7 +26,7 @@ body{
     display: flex;
     justify-content: space-between;
     padding: 16px;
-    color:  rgba(209, 190, 151, 0.718);
+    color:  rgba(255, 255, 255, 0.686);
     max-width: 70%;
     margin: auto;
 }
@@ -36,8 +36,8 @@ body{
 }
 
 #container h1:hover{
-    color:  rgb(209, 190, 151);
-    text-shadow: 2px 2px 5px  rgb(209, 190, 151);
+    color:  rgba(255, 255, 255, 0.928);
+    text-shadow: 2px 2px 5px  white;
 }
 
 #container ul{
@@ -51,14 +51,15 @@ body{
 #container ul li a{
     text-decoration: none;
     color: black;
-    color:  rgba(209, 190, 151, 0.718);
+    color:  rgba(255, 255, 255, 0.686);
     transition: .5s;
 
 }
 
 #container ul li a:hover{
     text-decoration: overline underline;
-    text-shadow: 2px 2px 5px  rgb(240, 210, 150);
+    color:  rgba(255, 255, 255, 0.928);
+    text-shadow: 2px 2px 5px  white;
 
 }
 /* ------------------MAIN-------------------- */
@@ -75,7 +76,7 @@ main{
 }
 
 main h1{
-    color:  rgba(209, 190, 151, 0.845);
+    color:  rgba(255, 255, 255, 0.686);
     font-size: 3em;
     line-height: 1em;
     transition: .5s;
@@ -85,13 +86,13 @@ main h1{
 }
 
 main h1:hover{
-    color:  rgb(209, 190, 151);
-    text-shadow: 2px 2px 8px  rgb(209, 190, 151);
+    color:  rgba(255, 255, 255, 0.928);
+    text-shadow: 2px 2px 5px  white;
 }
 
 
 fieldset{
-    background-color: rgba(209, 190, 151, 0.718);
+    background-color: rgba(255, 255, 255, 0.686);
     margin: 16px;
     border: none;
     border-radius: 8px;
@@ -99,15 +100,18 @@ fieldset{
 }
 
 #fieldset1:hover{
-    box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.801);
+    box-shadow: 2px 2px 8px  white;
+    background-color: rgba(255, 255, 255, 0.824);
 }
 
 #fieldset2:hover{
-    box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.801);
+    box-shadow: 2px 2px 8px  white;
+    background-color: rgba(255, 255, 255, 0.824);
 }
 
 #fieldset3:hover{
-    box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.801);
+    box-shadow: 2px 2px 8px  white;
+    background-color: rgba(255, 255, 255, 0.824);
 }
 
 
@@ -146,7 +150,7 @@ input::placeholder {
 }
 
 .txtbox:hover{
-    box-shadow: 2px 2px 8px rgba(209, 190, 151, 0.758);
+    box-shadow: 2px 2px 10px rgba(209, 190, 151, 0.758);
     border: 1px solid rgb(209, 190, 151);
 } 
 
@@ -165,7 +169,7 @@ input::placeholder {
 /* ------------------------FOOTER-------------------- */
 
 footer{
-    color:  rgba(209, 190, 151, 0.489);
+    color:  rgba(255, 255, 255, 0.686);
     text-align: center;
     font-size: .8rem;
     /* border: 1px solid red; */
@@ -173,6 +177,6 @@ footer{
 }
 
 span:hover{
-    color:  rgb(209, 190, 151);
-    text-shadow: 2px 2px 5px  rgb(209, 190, 151);
+    color:  rgba(255, 255, 255, 0.928);
+    text-shadow: 2px 2px 5px  white;
 }
