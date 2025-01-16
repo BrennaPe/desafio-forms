@@ -209,4 +209,9 @@ span:hover{
     input[type="reset"]{
         color: black;
     }
+
+    input, textarea, select {
+        font-size: 16px; /* Prevents mobile browsers from zooming */
+    }
+
 }
