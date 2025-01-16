@@ -216,7 +216,7 @@ span:hover{
     }
 
     input, textarea, select {
-        font-size: 12px; /* Prevents mobile browsers from zooming */
+        font-size: 16px; /* Prevents mobile browsers from zooming */
     }
 
     select {
