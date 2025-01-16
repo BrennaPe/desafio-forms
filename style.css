@@ -207,10 +207,12 @@ span:hover{
 
     input[type="reset"]{
         color: black;
+        font-weight: light;
     }
 
     input[type="submit"].buttom{
         color: black;
+        font-weight: light;
     }
 
     input, textarea, select {
