@@ -211,7 +211,7 @@ span:hover{
     }
 
     input[type="submit"].buttom{
-        color: rgb(255, 0, 0);
+        color: rgb(139, 34, 34);
     }
 
     input, textarea, select {
