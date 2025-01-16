@@ -206,12 +206,12 @@ span:hover{
     #fieldset3{
     margin-bottom: 0px;}
 
-    input[type="reset"] .buttom{
-        color: rgb(255, 0, 0);
+    input[type="reset"]{
+        color: black;
     }
 
     input[type="submit"].buttom{
-        color: rgb(139, 34, 34);
+        color: black;
     }
 
     input, textarea, select {
@@ -219,7 +219,6 @@ span:hover{
     }
 
     select {
-        background-color: white; /* Ensure background is consistent */
         background-image: url('img/arrow-down.svg'); /* Custom arrow */
         background-repeat: no-repeat;
         background-position: right 10px center;
